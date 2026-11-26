@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: "printing path"
-        run: pwd
-      - name: "printing name"
-        run: echo amr
+      - name: "printing files"
+        run: ls
+      
